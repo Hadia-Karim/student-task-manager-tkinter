@@ -6,7 +6,7 @@ from task_list import open_task_list
 
 def main():
     init_db()
-
+ 
     root = tk.Tk()
     root.title("Student Task Manager")
     root.geometry("400x300")
