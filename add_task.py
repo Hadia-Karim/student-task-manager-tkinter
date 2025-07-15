@@ -21,7 +21,7 @@ def open_add_task():
             messagebox.showwarning("Warning", "Task title is required.")
         else:
             add_task(title, due_date)
-            messagebox.showinfo("Success", "Task added successfully!")
+            messagebox.showinfo("Success", "Task added successfully Cheers!")
             window.destroy()
 
     tk.Button(window, text="Add Task", command=save).pack(pady=10)
